@@ -3,7 +3,7 @@ import pyperclip
 
 # Function to replace spaces with carets
 def replace_spaces(input_string):
-    return input_string.replace(' ', '^')
+    return input_string.replace(' ', '!')
 
 # Create the Streamlit app
 st.title('Made with Love for my Love ❤️')
